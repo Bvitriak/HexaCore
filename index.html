@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#000000">
+
+    <title>Hexacore</title>
+    <meta name="description" content="Nodes Website">
+    <meta name="keywords" content="Crypto, Nodes">
+
+    <link rel="preload" href="fonts/IBM-Plex-Mono-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Neue-Machina-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Neue-Machina-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Neue-Machina-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="phone.css" media="(max-width:640px)">
+    <link rel="stylesheet" href="tablet.css" media="(min-width:640px) and (max-width: 1199px)">
+    <link rel="stylesheet" href="desktop.css" media="(min-width:1200px)">
+
+    <link rel="icon" href="image/head/favicon.ico" sizes="any">
+    <link rel="icon" href="image/head/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+    <header id="top" class="header">
+        <a href="/" class="header_logo_link" aria-label="Hexacore Home">
+            <svg class="header_logo_img">
+                Hexacore
+            </svg>
+        </a>
+        <nav class="main_nav" aria-label="main navigation">
+            <ul class="main_nav_list">
+                <li class="dropdown_menu">
+                    <button class="dropdown_toggle" aria-expanded="false" aria-controls="products-menu">
+                        Menu
+                        <svg class="dropdown_arrow">
+                            Arrow
+                        </svg>
+                    </button>
+                    <ul class="dropdown_menu" id="products-menu">
+                        <li>
+                            <picture class="header_menu_picture">
+                                <source srcset="/image/blocks/navigation.webp" type="image/webp">
+                                <img src="/image/blocks/navigation.png" alt="Navigation block." loading="lazy">
+                            </picture>
+                        </li>
+                        <li class="menu_list">
+                            <a href="#staking" class="menu_paragraph">Staking</a>
+                        </li>
+                        <li class="menu_list">
+                            <a href="#advantages" class="menu_paragraph">Advantages</a>
+                        </li>
+                        <li class="menu_list">
+                            <a href="#roadmap" class="menu_paragraph">Roadmap</a>
+                        </li>
+                        <li class="menu_list">
+                            <a href="#tokenomics" class="menu_paragraph">Tokenomics</a>
+                        </li>
+                        <li class="menu_list">
+                            <a href="#start" class="menu_paragraph">Start</a>
+                        </li>
+                        <li class="menu_list">
+                            <a href="#faq" class="menu_paragraph">FAQ</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav_item dropdown">
+                    <button class="header_social_link" aria-expanded="false" aria-controls="social-menu">
+                        Socials
+                        <svg class="dropdown-arrow">
+                            Arrow
+                        </svg>
+                    </button>
+                    <ul class="dropdown_menu" id="social-menu">
+                        <li class="social_list">
+                            <picture class="social_picture">
+                                <source srcset="/image/blocks/navigation.webp" type="image/webp">
+                                <img src="/image/blocks/navigation.png" alt="Navigation block." loading="lazy">
+                            </picture>
+                        </li>
+                        <li class="social_list">
+                            <a href="tg://" class="social_link">
+                                <svg class="telegram_img">
+                                    Telegram
+                                </svg>
+                                Telegram
+                            </a>
+                        </li>
+                        <li class="social_list">
+                            <a href="twitter://" class="social_link">
+                                <svg class="twitter_img">
+                                    Twitter
+                                </svg>
+                                Twitter
+                            </a>
+                        </li>
+                        <li class="social_list">
+                            <a href="https://etherscan.io" class="social_link">
+                                <svg class="etherscan_img">
+                                    Etherscan
+                                </svg>
+                                Etherscan
+                            </a>
+                        </li>
+                        <li class="social_list">
+                            <a href="https://www.dextools.io" class="social_link">
+                                <svg class="dextools_img">
+                                    Dextools
+                                </svg>
+                                Dextools
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav_item">
+                    <a href="#" class="nav_link">Docs</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#buy" class="nav_link">Buy</a>
+                </li>
+            </ul>
+        </nav>
+        <button class="header_button">
+            dApp
+        </button>
+        <button class="header_navbar">
+            <svg class="header_navbar_img">
+                Navbar
+            </svg>
+            <nav class="header_navbar_nav" id="navbar" role="navigation" aria-label="main navigation">
+                <ul class="header_navbar_ul">
+                    <li class="header_navbar_logo">
+                        <a href="#" class="header_navbar_logo_link">Hexacore</a>
+                    </li>
+                    <li class="header_navbar_close">
+                        <button class="header_navbar_close_button">Close</button>
+                    </li>
+                    <li class="navbar_list">
+                        <a href="#advantages" class="navbar_paragraph">Advantages</a>
+                    </li>
+                    <li class="navbar_list">
+                        <a href="#roadmap" class="navbar_paragraph">Roadmap</a>
+                    </li>
+                    <li class="navbar_list">
+                        <a href="#tokenomics" class="navbar_paragraph">Tokenomics</a>
+                    </li>
+                    <li class="navbar_list">
+                        <a href="#start" class="navbar_paragraph">Start</a>
+                    </li>
+                    <li class="navbar_list">
+                        <a href="#faq" class="navbar_paragraph">FAQ</a>
+                    </li>
+                    <li class="navbar_list">
+                        <a href="#buy" class="navbar_paragraph">Buy</a>
+                    </li>
+                    <li class="social_navbar_list">
+                        <a href="https://www.dextools.io" class="social_navbar_link">Dextools</a>
+                    </li>
+                    <li class="social_navbar_list">
+                        <a href="https://etherscan.io" class="social_navbar_link">Etherscan</a>
+                    </li>
+                    <li class="social_navbar_list">
+                        <a href="tg://" class="social_navbar_link">Telegram</a>
+                    </li>
+                    <li class="social_navbar_list">
+                        <a href="twitter://" class="social_navbar_link">Twitter</a>
+                    </li>
+                </ul>
+            </nav>
+        </button>
+    </header>
+    <main>
+        <section id="staking">
+            <div class="staking_container">
+                <h1 class="staking_title">
+                    Decentralized
+                    <span class="staking_subtitle">
+                        AI/ML
+                    </span>
+                    computing
+                </h1>
+                <span class="staking_new_technology_svg">
+                    New Technology
+                </span>
+            </div>
+            <p class="staking_paragraph">
+                As well as key features of the project's structure, they were declared
+                to violate universal norms of morality.
+            </p>
+            <div class="staking_button_container">
+                <button class="staking_view_button" type="button" aria-label="View Node">
+                    View Node
+                    <svg class="staking_button_img" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                        <path d="M1 16L16 1M16 1H5.09091M16 1V11.2273" stroke="#17161E" stroke-width="2"/>
+                    </svg>
+                </button>
+                <button class="staking_buy_button" type="button" aria-label="Buy GPU">
+                    Buy $GPU
+                    <svg class="staking_button_img" aria-hidden="true">
+                        <use href="/image/main/subnetix.svg#subnetix"></use>
+                    </svg>
+                </button>
+            </div>
+            <dl class="staking_stats">
+                <div class="staking_stat_item">
+                    <dt class="staking_stat_term">$15 750</dt>
+                    <dd class="staking_stat_description">Avg Monthly Revenue</dd>
+                </div>
+                <div class="staking_stat_item">
+                    <dt class="staking_stat_term">1</dt>
+                    <dd class="staking_stat_description">Active Nodes</dd>
+                </div>
+            </dl>
+            <picture class="staking_picture">
+                <source srcset="/image/main/microchip.webp" type="image/webp">
+                <img src="/image/main/microchip.png" alt="microchip illustration" loading="lazy">
+            </picture>
+        </section>
+
+        <section id="advantages">
+            <h2 class="advantages_title">Why choose us</h2>
+            <article class="advantages_card advantages_card-subnetix" aria-labelledby="subnetix_heading">
+                <div class="advantages_header">
+                    <svg class="advantages_subnetix_svg" aria-hidden="true">
+                        <use href="/image/main/subnetix.svg#subnetix">Subnetix</use>
+                    </svg>
+                    <h3 class="advantages_black_name">Subnetix</h3>
+                </div>
+                <p class="advantages_subnetix_paragraph">
+                    Tap into the burgeoning Bittensor subnet ecosystem. Participate in a vibrant
+                    derivatives market, fueling innovation and growth for Tensor Processing Unit.
+                </p>
+            </article>
+            <article class="advantages_card advantages_card-space" aria-labelledby="space_heading">
+                <div class="advantages_header">
+                    <svg class="advantages_space_svg" aria-hidden="true">
+                        <use href="/image/main/space.svg#space">Space</use>
+                    </svg>
+                    <h3 class="advantages_white_name">Space</h3>
+                </div>
+                <p class="advantages_space_paragraph">
+                    Access the processing power you need, when you need it. Scale projects seamlessly
+                    with a decentralized marketplace of GPUs, TPUs, and cutting-edge LPUs.
+                </p>
+            </article>
+            <article class="advantages_card advantages_card-craft" aria-labelledby="craft_heading">
+                <div class="advantages_header">
+                    <svg class="advantages_craft_svg" aria-hidden="true">
+                        <use href="/image/main/craft.svg#craft">Craft</use>
+                    </svg>
+                    <h3 class="advantages_black_name">Craft</h3>
+                </div>
+                <p class="advantages_craft_paragraph">
+                    Accelerate development and deployment with our intuitive, no-code AI
+                    application-building platform, empowering users of all skill levels.
+                </p>
+            </article>
+            <article class="advantages_card advantages_card-foundry" aria-labelledby="foundry_heading">
+                <div class="advantages_header">
+                    <svg class="advantages_foundry_svg" aria-hidden="true">
+                        <use href="/image/main/foundry.svg#foundry">Foundry</use>
+                    </svg>
+                    <h3 class="advantages_white_name">Foundry</h3>
+                </div>
+                <p class="advantages_foundry_paragraph">
+                    We use blockchain technology to keep your data, payment funds, and usage secure.
+                    It adds an extra layer of protection to your information is safe and trustworthy.
+                </p>
+            </article>
+            <article class="advantages_card advantages_card-nodes" aria-labelledby="nodes_heading">
+                <div class="advantages_header">
+                    <svg class="advantages_nodes_svg" aria-hidden="true">
+                        <use href="/image/main/nodes.svg#nodes">Nodes</use>
+                    </svg>
+                    <h3 class="advantages_black_name">Nodes</h3>
+                </div>
+                <p class="advantages_nodes_paragraph">
+                    Access the processing power you need, when you need it. Scale projects seamlessly
+                    with a decentralized marketplace of GPUs, TPUs, and cutting-edge LPUs.
+                </p>
+            </article>
+            <article class="advantages_card advantages_card-gpus" aria-labelledby="gpus_heading">
+                <div class="advantages_header">
+                    <svg class="advantages_gpus_svg" aria-hidden="true">
+                        <use href="/image/main/gpu.svg#gpu">Gpu</use>
+                    </svg>
+                    <h3 class="advantages_white_name">GPUs</h3>
+                </div>
+                <p class="advantages_gpus_paragraph">
+                    Tap into the burgeoning Bittensor subnet ecosystem. Participate in a vibrant
+                    derivatives market, fueling innovation and growth for Tensor Processing Unit.
+                </p>
+            </article>
+            <button class="advantages_more_button" type="button" aria-label="Show more advantages">
+                More
+                <svg class="advantages_more_button_svg">
+                    <use href="/image/main/more.svg#more">More</use>
+                </svg>
+            </button>
+        </section>
+
+        <section id="roadmap">
+            <h2 class="roadmap_title">Roadmap</h2>
+            <article class="roadmap_phase">
+                <ul class="roadmap_list">
+                    <li class="roadmap_list_item">
+                        <svg class="roadmap_list_circle_svg">
+                            <use href="/image/roadmap/first_number.svg#first-number-icon"/>
+                            First_Circle
+                        </svg>
+                    </li>
+                    <li class="roadmap_list_item">
+                        <img src="/image/roadmap/green_checkmark.svg" alt="green_checkmark">
+                        <p class="roadmap_text">
+                            Launch NodeAI Website & Dapp
+                        </p>
+                    </li>
+                    <li class="roadmap_list_item">
+                        <img src="/image/roadmap/green_checkmark.svg" alt="green_checkmark">
+                        <p class="roadmap_text">
+                            $GPU Fair Launch
+                        </p>
+                    </li>
+                    <li class="roadmap_list_item">
+                        <img src="/image/roadmap/green_checkmark.svg" alt="green_checkmark">
+                        <p class="roadmap_text">
+                            Stake to Earn Rewards
+                        </p>
+                    </li>
+                    <li class="roadmap_list_item">
+                        <img src="/image/roadmap/green_checkmark.svg" alt="green_checkmark">
+                        <p class="roadmap_text">
+                            Build & Grow Community
+                        </p>
+                    </li>
+                    <li class="roadmap_list_item">
+                        <img src="/image/roadmap/green_checkmark.svg" alt="green_checkmark">
+                        <p class="roadmap_text">
+                            Referral Program
+                        </p>
+                    </li>
+                </ul>
+            </article>
+            <article class="roadmap_phase">
+                <ul class="roadmap_list">
+                    <li class="roadmap_list_item">
+                        <svg class="roadmap_list_circle_svg">
+                            Second_Circle
+                        </svg>
+                    </li>
+                    <li class="roadmap_list_item">
+                        <img src="/image/roadmap/green_checkmark.svg" alt="green_checkmark">
+                        <p class="roadmap_text">
+                            Launch NodeAI Website & Dapp
+                        </p>
+                    </li>
+                    <li class="roadmap_list_item">
+                        <img src="/image/roadmap/green_checkmark.svg" alt="green_checkmark">
+                        <p class="roadmap_text">
+                            $GPU Fair Launch
+                        </p>
+                    </li>
+                    <li class="roadmap_list_item">
+                        <img src="/image/roadmap/green_checkmark.svg" alt="green_checkmark">
+                        <p class="roadmap_text">
+                            Stake to Earn Rewards
+                        </p>
+                    </li>
+                    <li class="roadmap_list_item">
+                        <img src="/image/roadmap/green_checkmark.svg" alt="green_checkmark">
+                        <p class="roadmap_text">
+                            Build & Grow Community
+                        </p>
+                    </li>
+                    <li class="roadmap_list_item">
+                        <img src="/image/roadmap/green_checkmark.svg" alt="green_checkmark">
+                        <p class="roadmap_text">
+                            Referral Program
+                        </p>
+                    </li>
+                </ul>
+            </article>
+            <article class="roadmap_phase">
+                <ul class="roadmap_list">
+                    <li class="roadmap_list_item">
+                        <svg class="roadmap_list_green_circle_svg">
+                            Third_Circle
+                        </svg>
+                    </li>
+                    <li class="roadmap_list_item">
+                        <img src="/image/roadmap/green_checkmark.svg" alt="green_checkmark">
+                        <p class="roadmap_text roadmap_text-green">
+                            Launch NodeAI Website & Dapp
+                        </p>
+                    </li>
+                    <li class="roadmap_list_item">
+                        <img src="/image/roadmap/green_checkmark.svg" alt="green_checkmark">
+                        <p class="roadmap_text roadmap_text-green">
+                            $GPU Fair Launch
+                        </p>
+                    </li>
+                    <li class="roadmap_list_item">
+                        <img src="/image/roadmap/green_checkmark.svg" alt="green_checkmark">
+                        <p class="roadmap_text roadmap_text-green">
+                            Stake to Earn Rewards
+                        </p>
+                    </li>
+                    <li class="roadmap_list_item">
+                        <img src="/image/roadmap/green_checkmark.svg" alt="green_checkmark">
+                        <p class="roadmap_text roadmap_text-green">
+                            Build & Grow Community
+                        </p>
+                    </li>
+                    <li class="roadmap_list_item">
+                        <img src="/image/roadmap/green_checkmark.svg" alt="green_checkmark">
+                        <p class="roadmap_text roadmap_text-green">
+                            Referral Program
+                        </p>
+                    </li>
+                </ul>
+            </article>
+            <article class="roadmap_phase">
+                <ul class="roadmap_list">
+                    <li class="roadmap_list_item">
+                        <svg class="roadmap_list_dark_circle_svg">
+                            Fourth_Circle
+                        </svg>
+                    </li>
+                    <li class="roadmap_list_item">
+                        <img src="/image/roadmap/green_checkmark.svg" alt="green_checkmark">
+                        <p class="roadmap_text">
+                            Launch NodeAI Website & Dapp
+                        </p>
+                    </li>
+                    <li class="roadmap_list_item">
+                        <img src="/image/roadmap/green_checkmark.svg" alt="green_checkmark">
+                        <p class="roadmap_text">
+                            $GPU Fair Launch
+                        </p>
+                    </li>
+                    <li class="roadmap_list_item">
+                        <img src="/image/roadmap/grey_checkmark.svg" alt="grey_checkmark">
+                        <p class="roadmap_text roadmap_text-dark">
+                            Stake to Earn Rewards
+                        </p>
+                    </li>
+                    <li class="roadmap_list_item">
+                        <img src="/image/roadmap/grey_checkmark.svg" alt="grey_checkmark">
+                        <p class="roadmap_text roadmap_text-dark">
+                            Build & Grow Community
+                        </p>
+                    </li>
+                    <li class="roadmap_list_item">
+                        <img src="/image/roadmap/grey_checkmark.svg" alt="grey_checkmark">
+                        <p class="roadmap_text roadmap_text-dark">
+                            Referral Program
+                        </p>
+                    </li>
+                </ul>
+            </article>
+        </section>
+
+        <section aria-labelledby="important-notice-heading">
+            <div class="notice-bar" role="alert" aria-live="polite">
+                <h2 id="important-notice-heading" class="visually-hidden">Important Notice</h2>
+                <p class="first_cross_line">
+                    Important information for all customers! *** Important information for all customers! ***
+                </p>
+            </div>
+        </section>
+
+        <section id="tokenomics">
+            <h2 class="tokenomics_title">Tokenomics</h2>
+            <ul class="tokenomics_list">
+                <li class="tokenomics_item">
+                    <p class="tokenomics_item_text">Token</p>
+                    <div class="tokenomics_item_value">Vuetoken</div>
+                </li>
+                <li class="tokenomics_item">
+                    <p class="tokenomics_item_text">Total supply</p>
+                    <div class="tokenomics_item_value">100M</div>
+                </li>
+                <li class="tokenomics_item">
+                    <p class="tokenomics_item_text">Chain</p>
+                    <div class="tokenomics_item_value">TRC-20</div>
+                </li>
+                <li class="tokenomics_item">
+                    <p class="tokenomics_item_text">Symbol</p>
+                    <div class="tokenomics_item_value">VUET</div>
+                </li>
+                <li class="tokenomics_item">
+                    <p class="tokenomics_item_text">Launch</p>
+                    <div class="tokenomics_item_value">Fair launch</div>
+                </li>
+                <li class="tokenomics_item">
+                    <p class="tokenomics_item_text">Taxes</p>
+                    <div class="tokenomics_item_value">5% / 5%</div>
+                </li>
+                <li class="tokenomics_item">
+                    <p class="tokenomics_item_text">0x1258d60b224c0c5cd888d37bbf31aa5fcfb7e870</p>
+                    <button class="tokenomics_item_button" aria-label="Copy to clipboard">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="20" viewBox="0 0 16 20" fill="none">
+                            <path d="M5.12358 16.5898C4.61844 16.5898 4.19253 16.4121 3.84584 16.0567C3.49917 15.7012 3.32584 15.2645
+                            3.32584 14.7465V1.8433C3.32584 1.32536 3.49917 0.888652 3.84584 0.533179C4.19253 0.177726 4.61844 0 5.12358
+                            0H14.2023C14.7074 0 15.1333 0.177726 15.48 0.533179C15.8267 0.888652 16 1.32536 16 1.8433V14.7465C16 15.2645
+                            15.8267 15.7012 15.48 16.0567C15.1333 16.4121 14.7074 16.5898 14.2023 16.5898H5.12358ZM5.12358
+                            15.4839H14.2023C14.382 15.4839 14.5468 15.4071 14.6966 15.2534C14.8464 15.0998 14.9213 14.9309 14.9213
+                            14.7465V1.8433C14.9213 1.65897 14.8464 1.49 14.6966 1.33639C14.5468 1.18279 14.382 1.10599 14.2023
+                            1.10599H5.12358C4.94382 1.10599 4.77903 1.18279 4.6292 1.33639C4.47939 1.49 4.40449 1.65897 4.40449
+                            1.8433V14.7465C4.40449 14.9309 4.47939 15.0998 4.6292 15.2534C4.77903 15.4071 4.94382 15.4839 5.12358
+                            15.4839ZM1.79774 20C1.2926 20 0.866686 19.8223 0.52 19.4668C0.173333 19.1113 0 18.6746 0
+                            18.1567V4.14744H1.07865V18.1567C1.07865 18.341 1.15355 18.51 1.30336 18.6636C1.45317 18.8172 1.61796 18.894
+                            1.79774 18.894H11.9551V20H1.79774Z" fill="#17161E"/>
+                        </svg>
+                    </button>
+                </li>
+            </ul>
+        </section>
+
+        <section aria-labelledby="important-notice-heading">
+            <div class="notice-bar" role="alert" aria-live="polite">
+                <h2 id="second-important-notice-heading" class="visually-hidden">Important Notice</h2>
+                <p class="second_cross_line">
+                    Important information for all customers! *** Important information for all customers! ***
+                </p>
+            </div>
+        </section>
+
+        <section id="start">
+            <h2 class="start_title">Start</h2>
+            <picture class="start_picture">
+                <source media="(min-width: 960px)" srcset="/image/start/microchip_desktop.webp" type="image/webp">
+                <source media="(min-width: 640px) and (max-width: 960px)" srcset="/image/start/microchip_tablet.webp" type="image/webp">
+                <source media="(max-width: 640px)" srcset="/image/start/microchip_phone.webp" type="image/webp">
+                <img src="/image/start/microchip_desktop.png"
+                     srcset="/image/start/microchip_desktop.png 1920w
+                             /image/start/microchip_laptop.png 960w
+                             /image/start/microchip_phone.png 640w"
+                     alt="Microchip technology illustration"
+                     loading="lazy">
+            </picture>
+            <div class="start_text_block">
+                <p class="start_first_paragraph">
+                    It is pleasant, citizens, to observe how the basic scenarios of user behavior are
+                    only a method of political participation and are associatively distributed by industry.
+                    Suddenly, some features of domestic policy will be verified in a timely manner.
+                </p>
+                <p class="start_second_paragraph">
+                    As well as key features of the project's structure, they were declared to violate
+                    universal norms of ethics and morality. Everyday practice shows that the high quality
+                    of positional research plays an important role in the formation of clustering efforts.
+                    Equally, the cohesion of the team of professionals reveals the urgent need for a
+                    personnel training system that meets urgent needs.
+                </p>
+            </div>
+            <button class="start_button" aria-label="Get started with NodeAI" type="button">
+                Get started
+            </button>
+        </section>
+
+        <section aria-labelledby="cta-heading">
+            <h2 id="cta-heading" class="visually-hidden">Call to action</h2>
+            <p class="independent_paragraph" role="alert">
+                <span class="yellow_independent_part">Don't stop there</span>
+                - create and grow with the help of decentralized computing and artificial intelligence.
+            </p>
+        </section>
+
+        <section id="buy" aria-labelledby="form-heading">
+            <h2 id="form-heading" class="buy_title">Submit your project</h2>
+            <form class="buy_form" method="POST">
+                <label for="project_name" class="buy_label">
+                    Project Name
+                </label>
+                <input name="project_name" type="text" class="buy_input"
+                       id="project_name" placeholder="Enter project name"
+                       minlength="3" maxlength="30" required>
+
+                <label for="project_description" class="buy_label">
+                    Project Description
+                </label>
+                <textarea
+                        name="project_description" class="buy_textarea" id="project_description"
+                        placeholder="Briefly explain the project's goals and features"
+                        minlength="15" maxlength="1500" required>
+                </textarea>
+
+                <label for="name" class="buy_label">
+                    Name
+                </label>
+                <input name="name" type="text" class="buy_input"
+                       id="name" placeholder="Enter your name"
+                       minlength="2" maxlength="30" required>
+
+                <label for="email" class="buy_label">
+                    Email
+                </label>
+                <input name="email" type="email" class="buy_input"
+                       id="email" placeholder="Enter email"
+                       pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+
+                <button name="submit_form_button" type="submit" class="buy_button">
+                    Send
+                </button>
+                <p class="buy_warning_message">
+                    By submitting this form, you consent to the collection and processing of your personal
+                    data in accordance with our privacy policy
+                </p>
+            </form>
+        </section>
+
+        <section id="faq">
+            <h2 class="faq_title">FAQ</h2>
+            <details class="faq_list" aria-expanded="false">
+                <summary class="faq_question">
+                    How much will I earn by staking $GPU?
+                    <svg class="faq_chevron" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M6 9l6 6 6-6"/>
+                    </svg>
+                </summary>
+                <div class="faq_answer">
+                    <p class="faq_answer">
+                        Typically you earn 10-15% yearly by staking $GPU. Rewards update weekly in your account.
+                    </p>
+                </div>
+            </details>
+            <details class="faq_list" aria-expanded="false">
+                <summary class="faq_question">
+                    How do I buy $GPU?
+                    <svg class="faq_chevron" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M6 9l6 6 6-6"/>
+                    </svg>
+                </summary>
+                <div class="faq_answer">
+                    <p class="faq_answer">
+                        Swap ETH or USDT for $GPU on Uniswap using any crypto wallet like MetaMask.
+                    </p>
+                </div>
+            </details>
+            <details class="faq_list" aria-expanded="false">
+                <summary class="faq_question">
+                    How secure is a GPU Node?
+                    <svg class="faq_chevron" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M6 9l6 6 6-6"/>
+                    </svg>
+                </summary>
+                <div class="faq_answer">
+                    <p class="faq_answer">
+                        Extremely secure - we use enterprise protection and constant monitoring with zero breaches.
+                    </p>
+                </div>
+            </details>
+            <details class="faq_list" aria-expanded="false">
+                <summary class="faq_question">
+                    How can I access my Node?
+                    <svg class="faq_chevron" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M6 9l6 6 6-6"/>
+                    </svg>
+                </summary>
+                <div class="faq_answer">
+                    <p class="faq_answer">
+                        Just log into our website or app to view and manage your node anytime.
+                    </p>
+                </div>
+            </details>
+            <details class="faq_list" aria-expanded="false">
+                <summary class="faq_question">
+                    How much will I earn by staking $GPU?
+                    <svg class="faq_chevron" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M6 9l6 6 6-6"/>
+                    </svg>
+                </summary>
+                <div class="faq_answer">
+                    <p class="faq_answer">
+                        Start with just 100 $GPU (~$10). The more you stake, the higher your rewards.
+                    </p>
+                </div>
+            </details>
+            <p class="faq_notice">
+                In this section we have posted answers to frequently asked questions.
+                If you have another question, you can email us
+            </p>
+            <button class="faq_button">
+                    Write to us
+                <svg class="faq_svg">
+                    Mailbox
+                </svg>
+            </button>
+        </section>
+    </main>
+
+    <footer id="footer" class="footer">
+        <a class="footer-logo" href="/" aria-label="Home">
+            <svg class="footer-logo_svg">
+                Logo
+            </svg>
+        </a>
+        <nav class="footer-navigation" aria-label="Footer navigation">
+            <ul class="footer-navigation_list">
+                <li class="footer-navigation_item">
+                    <a class="footer-navigation_link" href="#advantages">Advantages</a>
+                </li>
+                <li class="footer-navigation_item">
+                    <a class="footer-navigation_link" href="#roadmap">Roadmap</a>
+                </li>
+                <li class="footer-navigation_item">
+                    <a class="footer-navigation_link" href="#tokenomics">Tokenomic</a>
+                </li>
+                <li class="footer-navigation_item">
+                    <a class="footer-navigation_link" href="#start">Start</a>
+                </li>
+                <li class="footer-navigation_item">
+                    <a class="footer-navigation_link" href="#faq">FAQ</a>
+                </li>
+                <li class="footer-navigation_item">
+                    <a class="footer-navigation_link" href="#buy">Buy</a>
+                </li>
+            </ul>
+        </nav>
+        <ul class="footer-social">
+            <li class="footer_social_item">
+                <a class="footer_social_link" href="https://www.dextools.io">Dextools</a>
+            </li>
+            <li class="footer_social_item">
+                <a class="footer_social_link" href="https://etherscan.io">Etherscan</a>
+            </li>
+            <li class="footer_social_item">
+                <a class="footer_social_link" href="tg://">Telegram</a>
+            </li>
+            <li class="footer_social_item">
+                <a class="footer_social_link" href="twitter://">Twitter</a>
+            </li>
+        </ul>
+        <p class="footer_private_policy">(с)NFTNode, 2024</p>
+    </footer>
+</body>
+</html>
