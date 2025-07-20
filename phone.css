@@ -1,0 +1,26 @@
+.roadmap_list_item,
+.roadmap_list_grey_item {
+    position: relative;
+    padding-left: 2em; /* Отступ для галочки */
+    list-style: none; /* Убираем стандартные маркеры списка */
+}
+
+.roadmap_list_item::before,
+.roadmap_list_grey_item::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.2em;
+    width: 1.2em;
+    height: 1.2em;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.roadmap_list_item::before {
+    background-image: url("/images/roadmap/green_checkmark.svg");
+}
+
+.roadmap_list_grey_item::before {
+    background-image: url("/images/roadmap/grey_checkmark.svg");
+}

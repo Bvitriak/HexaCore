@@ -6,9 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="theme-color" content="#000000">
 
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hexacore.onrender.com/">
+    <meta property="og:title" content="Hexacore - Decentralized AI/ML Computing">
+    <meta property="og:description" content="Access decentralized GPU power for AI projects with Hexacore's blockchain-based computing platform">
+    <meta property="og:image" content="https://hexacore.onrender.com/image/social/preview.png">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://hexacore.onrender.com/">
+    <meta property="twitter:title" content="Hexacore - Decentralized AI/ML Computing">
+    <meta property="twitter:description" content="Access decentralized GPU power for AI projects with Hexacore's blockchain-based computing platform">
+    <meta property="twitter:image" content="https://hexacore.onrender.com/image/social/preview.png">
+
+    <meta name="author" content="Hexacore">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://hexacore.onrender.com/" />
+
     <title>Hexacore</title>
-    <meta name="description" content="Nodes Website">
-    <meta name="keywords" content="Crypto, Nodes">
+    <meta name="description" content="Hexacore provides decentralized computing power for AI and machine learning projects through GPU nodes and blockchain technology">
+    <meta name="keywords" content="blockchain, AI, GPU nodes, decentralized computing, crypto, staking, $GPU token">
+    <meta name="news_keywords" content="crypto,blockchain,AI,GPU">
 
     <link rel="preload" href="fonts/IBM-Plex-Mono-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" href="fonts/Neue-Machina-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
@@ -26,24 +43,24 @@
 <body>
     <header id="top" class="header">
         <a href="/" class="header_logo_link" aria-label="Hexacore Home">
-            <svg class="header_logo_img">
-                Hexacore
+            <svg class="header_logo_img" aria-hidden="true">
+                <use href="image/logo/logo.svg"/>
             </svg>
         </a>
         <nav class="main_nav" aria-label="main navigation">
             <ul class="main_nav_list">
                 <li class="dropdown_menu">
-                    <button class="dropdown_toggle" aria-expanded="false" aria-controls="products-menu">
+                    <button class="dropdown_toggle" aria-expanded="false" aria-controls="products_menu" aria-label="Toggle main navigation menu">
                         Menu
-                        <svg class="dropdown_arrow">
-                            Arrow
+                        <svg class="dropdown_arrow" aria-hidden="true">
+                            <use href="image/dropdown_menu/arrow.svg"/>
                         </svg>
                     </button>
-                    <ul class="dropdown_menu" id="products-menu">
+                    <ul class="dropdown_menu_navigation" id="products_menu">
                         <li>
                             <picture class="header_menu_picture">
                                 <source srcset="/image/blocks/navigation.webp" type="image/webp">
-                                <img src="/image/blocks/navigation.png" alt="Navigation block." loading="lazy">
+                                <img src="/image/blocks/navigation.png" alt="Navigation block." width="91" height="252" loading="lazy">
                             </picture>
                         </li>
                         <li class="menu_list">
@@ -67,47 +84,47 @@
                     </ul>
                 </li>
                 <li class="nav_item dropdown">
-                    <button class="header_social_link" aria-expanded="false" aria-controls="social-menu">
+                    <button class="header_social_link" aria-expanded="false" aria-controls="social_menu" aria-label="Toggle social media links dropdown">
                         Socials
-                        <svg class="dropdown-arrow">
-                            Arrow
+                        <svg class="dropdown_arrow" aria-hidden="true">
+                            <use href="image/dropdown_menu/arrow.svg"/>
                         </svg>
                     </button>
-                    <ul class="dropdown_menu" id="social-menu">
+                    <ul class="dropdown_menu_social" id="social_menu">
                         <li class="social_list">
                             <picture class="social_picture">
-                                <source srcset="/image/blocks/navigation.webp" type="image/webp">
-                                <img src="/image/blocks/navigation.png" alt="Navigation block." loading="lazy">
+                                <source srcset="/image/blocks/social.webp" type="image/webp">
+                                <img src="/image/blocks/social.png" alt="Navigation block." width="91" height="252" loading="lazy">
                             </picture>
                         </li>
                         <li class="social_list">
                             <a href="tg://" class="social_link">
-                                <svg class="telegram_img">
-                                    Telegram
+                                <svg class="telegram_img" aria-hidden="true">
+                                    <use href="image/social/telegram.svg"/>
                                 </svg>
                                 Telegram
                             </a>
                         </li>
                         <li class="social_list">
                             <a href="twitter://" class="social_link">
-                                <svg class="twitter_img">
-                                    Twitter
+                                <svg class="twitter_img" aria-hidden="true">
+                                    <use href="image/social/twitter.svg"/>
                                 </svg>
                                 Twitter
                             </a>
                         </li>
                         <li class="social_list">
                             <a href="https://etherscan.io" class="social_link">
-                                <svg class="etherscan_img">
-                                    Etherscan
+                                <svg class="etherscan_img" aria-hidden="true">
+                                    <use href="image/social/etherscan.svg"/>
                                 </svg>
                                 Etherscan
                             </a>
                         </li>
                         <li class="social_list">
                             <a href="https://www.dextools.io" class="social_link">
-                                <svg class="dextools_img">
-                                    Dextools
+                                <svg class="dextools_img" aria-hidden="true">
+                                    <use href="image/social/dextools.svg"/>
                                 </svg>
                                 Dextools
                             </a>
@@ -122,54 +139,54 @@
                 </li>
             </ul>
         </nav>
-        <button class="header_button">
+        <button class="header_button" aria-label="Connect to decentralized application">
             dApp
         </button>
         <button class="header_navbar">
-            <svg class="header_navbar_img">
-                Navbar
+            <svg class="header_navbar_img" aria-hidden="true">
+                <use href="image/header/navbar.svg"/>
             </svg>
-            <nav class="header_navbar_nav" id="navbar" role="navigation" aria-label="main navigation">
-                <ul class="header_navbar_ul">
-                    <li class="header_navbar_logo">
-                        <a href="#" class="header_navbar_logo_link">Hexacore</a>
-                    </li>
-                    <li class="header_navbar_close">
-                        <button class="header_navbar_close_button">Close</button>
-                    </li>
-                    <li class="navbar_list">
-                        <a href="#advantages" class="navbar_paragraph">Advantages</a>
-                    </li>
-                    <li class="navbar_list">
-                        <a href="#roadmap" class="navbar_paragraph">Roadmap</a>
-                    </li>
-                    <li class="navbar_list">
-                        <a href="#tokenomics" class="navbar_paragraph">Tokenomics</a>
-                    </li>
-                    <li class="navbar_list">
-                        <a href="#start" class="navbar_paragraph">Start</a>
-                    </li>
-                    <li class="navbar_list">
-                        <a href="#faq" class="navbar_paragraph">FAQ</a>
-                    </li>
-                    <li class="navbar_list">
-                        <a href="#buy" class="navbar_paragraph">Buy</a>
-                    </li>
-                    <li class="social_navbar_list">
-                        <a href="https://www.dextools.io" class="social_navbar_link">Dextools</a>
-                    </li>
-                    <li class="social_navbar_list">
-                        <a href="https://etherscan.io" class="social_navbar_link">Etherscan</a>
-                    </li>
-                    <li class="social_navbar_list">
-                        <a href="tg://" class="social_navbar_link">Telegram</a>
-                    </li>
-                    <li class="social_navbar_list">
-                        <a href="twitter://" class="social_navbar_link">Twitter</a>
-                    </li>
-                </ul>
-            </nav>
         </button>
+        <nav class="header_navbar_nav" id="navbar" role="navigation" aria-label="main navigation">
+            <ul class="header_navbar_ul">
+                <li class="header_navbar_logo">
+                    <a href="#" class="header_navbar_logo_link">Hexacore</a>
+                </li>
+                <li class="header_navbar_close">
+                    <button class="header_close_button" aria-label="Close navigation menu">Close</button>
+                </li>
+                <li class="navbar_list">
+                    <a href="#advantages" class="navbar_paragraph">Advantages</a>
+                </li>
+                <li class="navbar_list">
+                    <a href="#roadmap" class="navbar_paragraph">Roadmap</a>
+                </li>
+                <li class="navbar_list">
+                    <a href="#tokenomics" class="navbar_paragraph">Tokenomics</a>
+                </li>
+                <li class="navbar_list">
+                    <a href="#start" class="navbar_paragraph">Start</a>
+                </li>
+                <li class="navbar_list">
+                    <a href="#faq" class="navbar_paragraph">FAQ</a>
+                </li>
+                <li class="navbar_list">
+                    <a href="#buy" class="navbar_paragraph">Buy</a>
+                </li>
+                <li class="social_navbar_list">
+                    <a href="https://www.dextools.io" class="social_navbar_link">Dextools</a>
+                </li>
+                <li class="social_navbar_list">
+                    <a href="https://etherscan.io" class="social_navbar_link">Etherscan</a>
+                </li>
+                <li class="social_navbar_list">
+                    <a href="tg://" class="social_navbar_link">Telegram</a>
+                </li>
+                <li class="social_navbar_list">
+                    <a href="twitter://" class="social_navbar_link">Twitter</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <main>
         <section id="staking">
@@ -192,14 +209,14 @@
             <div class="staking_button_container">
                 <button class="staking_view_button" type="button" aria-label="View Node">
                     View Node
-                    <svg class="staking_button_img" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
-                        <path d="M1 16L16 1M16 1H5.09091M16 1V11.2273" stroke="#17161E" stroke-width="2"/>
+                    <svg class="staking_button_img" aria-hidden="true">
+                        <use href="image/main/arrow.svg"/>
                     </svg>
                 </button>
-                <button class="staking_buy_button" type="button" aria-label="Buy GPU">
+                <button class="staking_buy_button" type="button" aria-label="Buy GPU tokens for node access">
                     Buy $GPU
                     <svg class="staking_button_img" aria-hidden="true">
-                        <use href="/image/main/subnetix.svg#subnetix"></use>
+                        <use href="/image/main/dollar.svg"/>
                     </svg>
                 </button>
             </div>
@@ -214,89 +231,94 @@
                 </div>
             </dl>
             <picture class="staking_picture">
-                <source srcset="/image/main/microchip.webp" type="image/webp">
-                <img src="/image/main/microchip.png" alt="microchip illustration" loading="lazy">
+                <source srcset="/image/main/microchip.webp" type="image/webp" media="(min-width: 1920px)">
+                <source srcset="/image/main/microchip.webp" type="image/webp" media="(min-width: 1200px)" width="410" height="350">
+                <source srcset="/image/main/microchip.webp" type="image/webp" media="(min-width: 960px)" width="308" height="265">
+
+                <img src="/image/main/microchip.png" alt="microchip illustration" loading="lazy" width="757" height="651"
+                     srcset=" /image/main/microchip.png 1920w, /image/main/microchip.png 1200w, /image/main/microchip.png 960w"
+                     sizes=" (min-width: 1920px) 757px, (min-width: 1200px) 410px, (min-width: 960px) 308px, 308px">
             </picture>
         </section>
 
         <section id="advantages">
             <h2 class="advantages_title">Why choose us</h2>
-            <article class="advantages_card advantages_card-subnetix" aria-labelledby="subnetix_heading">
+            <article class="advantages_card advantages_card_subnetix" aria-labelledby="subnetix_heading">
                 <div class="advantages_header">
                     <svg class="advantages_subnetix_svg" aria-hidden="true">
-                        <use href="/image/main/subnetix.svg#subnetix">Subnetix</use>
+                        <use href="/image/advantages/subnetix.svg"/>
                     </svg>
-                    <h3 class="advantages_black_name">Subnetix</h3>
+                    <h3 id="subnetix_heading" class="advantages_black_name">Subnetix</h3>
                 </div>
                 <p class="advantages_subnetix_paragraph">
                     Tap into the burgeoning Bittensor subnet ecosystem. Participate in a vibrant
                     derivatives market, fueling innovation and growth for Tensor Processing Unit.
                 </p>
             </article>
-            <article class="advantages_card advantages_card-space" aria-labelledby="space_heading">
+            <article class="advantages_card advantages_card_space" aria-labelledby="space_heading">
                 <div class="advantages_header">
                     <svg class="advantages_space_svg" aria-hidden="true">
-                        <use href="/image/main/space.svg#space">Space</use>
+                        <use href="/image/advantages/space.svg"/>
                     </svg>
-                    <h3 class="advantages_white_name">Space</h3>
+                    <h3 id="space_heading" class="advantages_white_name">Space</h3>
                 </div>
                 <p class="advantages_space_paragraph">
                     Access the processing power you need, when you need it. Scale projects seamlessly
                     with a decentralized marketplace of GPUs, TPUs, and cutting-edge LPUs.
                 </p>
             </article>
-            <article class="advantages_card advantages_card-craft" aria-labelledby="craft_heading">
+            <article class="advantages_card advantages_card_craft" aria-labelledby="craft_heading">
                 <div class="advantages_header">
                     <svg class="advantages_craft_svg" aria-hidden="true">
-                        <use href="/image/main/craft.svg#craft">Craft</use>
+                        <use href="/image/advantages/craft.svg"/>
                     </svg>
-                    <h3 class="advantages_black_name">Craft</h3>
+                    <h3 id="craft_heading" class="advantages_black_name">Craft</h3>
                 </div>
                 <p class="advantages_craft_paragraph">
                     Accelerate development and deployment with our intuitive, no-code AI
                     application-building platform, empowering users of all skill levels.
                 </p>
             </article>
-            <article class="advantages_card advantages_card-foundry" aria-labelledby="foundry_heading">
+            <article class="advantages_card advantages_card_foundry" aria-labelledby="foundry_heading">
                 <div class="advantages_header">
                     <svg class="advantages_foundry_svg" aria-hidden="true">
-                        <use href="/image/main/foundry.svg#foundry">Foundry</use>
+                        <use href="/image/advantages/foundry.svg"/>
                     </svg>
-                    <h3 class="advantages_white_name">Foundry</h3>
+                    <h3 id="foundry_heading" class="advantages_white_name">Foundry</h3>
                 </div>
                 <p class="advantages_foundry_paragraph">
                     We use blockchain technology to keep your data, payment funds, and usage secure.
                     It adds an extra layer of protection to your information is safe and trustworthy.
                 </p>
             </article>
-            <article class="advantages_card advantages_card-nodes" aria-labelledby="nodes_heading">
+            <article class="advantages_card advantages_card_nodes" aria-labelledby="nodes_heading">
                 <div class="advantages_header">
                     <svg class="advantages_nodes_svg" aria-hidden="true">
-                        <use href="/image/main/nodes.svg#nodes">Nodes</use>
+                        <use href="/image/advantages/nodes.svg"/>
                     </svg>
-                    <h3 class="advantages_black_name">Nodes</h3>
+                    <h3 id="nodes_heading" class="advantages_black_name">Nodes</h3>
                 </div>
                 <p class="advantages_nodes_paragraph">
                     Access the processing power you need, when you need it. Scale projects seamlessly
                     with a decentralized marketplace of GPUs, TPUs, and cutting-edge LPUs.
                 </p>
             </article>
-            <article class="advantages_card advantages_card-gpus" aria-labelledby="gpus_heading">
+            <article class="advantages_card advantages_card_gpus" aria-labelledby="gpus_heading">
                 <div class="advantages_header">
                     <svg class="advantages_gpus_svg" aria-hidden="true">
-                        <use href="/image/main/gpu.svg#gpu">Gpu</use>
+                        <use href="/image/advantages/gpu.svg"/>
                     </svg>
-                    <h3 class="advantages_white_name">GPUs</h3>
+                    <h3 id="gpus_heading" class="advantages_white_name">GPUs</h3>
                 </div>
                 <p class="advantages_gpus_paragraph">
                     Tap into the burgeoning Bittensor subnet ecosystem. Participate in a vibrant
                     derivatives market, fueling innovation and growth for Tensor Processing Unit.
                 </p>
             </article>
-            <button class="advantages_more_button" type="button" aria-label="Show more advantages">
+            <button class="advantages_more_button" type="button" aria-label="Show more platform advantages">
                 More
-                <svg class="advantages_more_button_svg">
-                    <use href="/image/main/more.svg#more">More</use>
+                <svg class="advantages_more_button_svg" aria-hidden="true">
+                    <use href="/image/advantages/informative_checkmark.svg"/>
                 </svg>
             </button>
         </section>
@@ -304,167 +326,114 @@
         <section id="roadmap">
             <h2 class="roadmap_title">Roadmap</h2>
             <article class="roadmap_phase">
+                <h3 class="visually-hidden">Phase 1</h3>
                 <ul class="roadmap_list">
                     <li class="roadmap_list_item">
-                        <svg class="roadmap_list_circle_svg">
-                            <use href="/image/roadmap/first_number.svg#first-number-icon"/>
-                            First_Circle
-                        </svg>
+                        <picture>
+                            <source srcset="/image/roadmap/first_number.svg" type="image/svg+xml">
+                            <img src="/image/roadmap/first_number.png" alt="first_circle" width="125" height="125" loading="lazy">
+                        </picture>
                     </li>
                     <li class="roadmap_list_item">
-                        <img src="/image/roadmap/green_checkmark.svg" alt="green_checkmark">
-                        <p class="roadmap_text">
-                            Launch NodeAI Website & Dapp
-                        </p>
+                        <p class="roadmap_text">Launch NodeAI Website & Dapp</p>
                     </li>
                     <li class="roadmap_list_item">
-                        <img src="/image/roadmap/green_checkmark.svg" alt="green_checkmark">
-                        <p class="roadmap_text">
-                            $GPU Fair Launch
-                        </p>
+                        <p class="roadmap_text">$GPU Fair Launch</p>
                     </li>
                     <li class="roadmap_list_item">
-                        <img src="/image/roadmap/green_checkmark.svg" alt="green_checkmark">
-                        <p class="roadmap_text">
-                            Stake to Earn Rewards
-                        </p>
+                        <p class="roadmap_text">Stake to Earn Rewards</p>
                     </li>
                     <li class="roadmap_list_item">
-                        <img src="/image/roadmap/green_checkmark.svg" alt="green_checkmark">
-                        <p class="roadmap_text">
-                            Build & Grow Community
-                        </p>
+                        <p class="roadmap_text">Build & Grow Community</p>
                     </li>
                     <li class="roadmap_list_item">
-                        <img src="/image/roadmap/green_checkmark.svg" alt="green_checkmark">
-                        <p class="roadmap_text">
-                            Referral Program
-                        </p>
+                        <p class="roadmap_text">Referral Program</p>
                     </li>
                 </ul>
             </article>
             <article class="roadmap_phase">
+                <h3 class="visually-hidden">Phase 2</h3>
                 <ul class="roadmap_list">
                     <li class="roadmap_list_item">
-                        <svg class="roadmap_list_circle_svg">
-                            Second_Circle
-                        </svg>
+                        <picture>
+                            <source srcset="/image/roadmap/second_number.svg" type="image/svg+xml">
+                            <img src="/image/roadmap/second_number.png" alt="second_circle" width="125" height="125" loading="lazy">
+                        </picture>
                     </li>
                     <li class="roadmap_list_item">
-                        <img src="/image/roadmap/green_checkmark.svg" alt="green_checkmark">
-                        <p class="roadmap_text">
-                            Launch NodeAI Website & Dapp
-                        </p>
+                        <p class="roadmap_text">Launch NodeAI Website & Dapp</p>
                     </li>
                     <li class="roadmap_list_item">
-                        <img src="/image/roadmap/green_checkmark.svg" alt="green_checkmark">
-                        <p class="roadmap_text">
-                            $GPU Fair Launch
-                        </p>
+                        <p class="roadmap_text">$GPU Fair Launch</p>
                     </li>
                     <li class="roadmap_list_item">
-                        <img src="/image/roadmap/green_checkmark.svg" alt="green_checkmark">
-                        <p class="roadmap_text">
-                            Stake to Earn Rewards
-                        </p>
+                        <p class="roadmap_text">Stake to Earn Rewards</p>
                     </li>
                     <li class="roadmap_list_item">
-                        <img src="/image/roadmap/green_checkmark.svg" alt="green_checkmark">
-                        <p class="roadmap_text">
-                            Build & Grow Community
-                        </p>
+                        <p class="roadmap_text">Build & Grow Community</p>
                     </li>
                     <li class="roadmap_list_item">
-                        <img src="/image/roadmap/green_checkmark.svg" alt="green_checkmark">
-                        <p class="roadmap_text">
-                            Referral Program
-                        </p>
+                        <p class="roadmap_text">Referral Program</p>
                     </li>
                 </ul>
             </article>
             <article class="roadmap_phase">
+                <h3 class="visually-hidden">Phase 3</h3>
                 <ul class="roadmap_list">
                     <li class="roadmap_list_item">
-                        <svg class="roadmap_list_green_circle_svg">
-                            Third_Circle
-                        </svg>
+                        <picture>
+                            <source srcset="/image/roadmap/third_number.svg" type="image/svg+xml">
+                            <img src="/image/roadmap/third_number.png" alt="third_circle" width="155" height="155" loading="lazy">
+                        </picture>
                     </li>
                     <li class="roadmap_list_item">
-                        <img src="/image/roadmap/green_checkmark.svg" alt="green_checkmark">
-                        <p class="roadmap_text roadmap_text-green">
-                            Launch NodeAI Website & Dapp
-                        </p>
+                        <p class="roadmap_text roadmap_text_green">Launch NodeAI Website & Dapp</p>
                     </li>
                     <li class="roadmap_list_item">
-                        <img src="/image/roadmap/green_checkmark.svg" alt="green_checkmark">
-                        <p class="roadmap_text roadmap_text-green">
-                            $GPU Fair Launch
-                        </p>
+                        <p class="roadmap_text roadmap_text_green">$GPU Fair Launch</p>
                     </li>
                     <li class="roadmap_list_item">
-                        <img src="/image/roadmap/green_checkmark.svg" alt="green_checkmark">
-                        <p class="roadmap_text roadmap_text-green">
-                            Stake to Earn Rewards
-                        </p>
+                        <p class="roadmap_text roadmap_text_green">Stake to Earn Rewards</p>
                     </li>
                     <li class="roadmap_list_item">
-                        <img src="/image/roadmap/green_checkmark.svg" alt="green_checkmark">
-                        <p class="roadmap_text roadmap_text-green">
-                            Build & Grow Community
-                        </p>
+                        <p class="roadmap_text roadmap_text_green">Build & Grow Community</p>
                     </li>
                     <li class="roadmap_list_item">
-                        <img src="/image/roadmap/green_checkmark.svg" alt="green_checkmark">
-                        <p class="roadmap_text roadmap_text-green">
-                            Referral Program
-                        </p>
+                        <p class="roadmap_text roadmap_text_green">Referral Program</p>
                     </li>
                 </ul>
             </article>
             <article class="roadmap_phase">
+                <h3 class="visually-hidden">Phase 4</h3>
                 <ul class="roadmap_list">
                     <li class="roadmap_list_item">
-                        <svg class="roadmap_list_dark_circle_svg">
-                            Fourth_Circle
-                        </svg>
+                        <picture>
+                            <source srcset="/image/roadmap/fourth_number.svg" type="image/svg+xml">
+                            <img src="/image/roadmap/fourth_number.png" alt="fourth_circle" width="125" height="125" loading="lazy">
+                        </picture>
                     </li>
                     <li class="roadmap_list_item">
-                        <img src="/image/roadmap/green_checkmark.svg" alt="green_checkmark">
-                        <p class="roadmap_text">
-                            Launch NodeAI Website & Dapp
-                        </p>
+                        <p class="roadmap_text">Launch NodeAI Website & Dapp</p>
                     </li>
                     <li class="roadmap_list_item">
-                        <img src="/image/roadmap/green_checkmark.svg" alt="green_checkmark">
-                        <p class="roadmap_text">
-                            $GPU Fair Launch
-                        </p>
+                        <p class="roadmap_text">$GPU Fair Launch</p>
                     </li>
-                    <li class="roadmap_list_item">
-                        <img src="/image/roadmap/grey_checkmark.svg" alt="grey_checkmark">
-                        <p class="roadmap_text roadmap_text-dark">
-                            Stake to Earn Rewards
-                        </p>
+                    <li class="roadmap_list_grey_item">
+                        <p class="roadmap_text roadmap_text_dark">Stake to Earn Rewards</p>
                     </li>
-                    <li class="roadmap_list_item">
-                        <img src="/image/roadmap/grey_checkmark.svg" alt="grey_checkmark">
-                        <p class="roadmap_text roadmap_text-dark">
-                            Build & Grow Community
-                        </p>
+                    <li class="roadmap_list_grey_item">
+                        <p class="roadmap_text roadmap_text_dark">Build & Grow Community</p>
                     </li>
-                    <li class="roadmap_list_item">
-                        <img src="/image/roadmap/grey_checkmark.svg" alt="grey_checkmark">
-                        <p class="roadmap_text roadmap_text-dark">
-                            Referral Program
-                        </p>
+                    <li class="roadmap_list_grey_item">
+                        <p class="roadmap_text roadmap_text_dark">Referral Program</p>
                     </li>
                 </ul>
             </article>
         </section>
 
-        <section aria-labelledby="important-notice-heading">
-            <div class="notice-bar" role="alert" aria-live="polite">
-                <h2 id="important-notice-heading" class="visually-hidden">Important Notice</h2>
+        <section aria-labelledby="top-important-notice-heading">
+            <div class="notice_bar" role="alert" aria-live="polite">
+                <h2 id="important_notice_heading" class="visually_hidden">Important Notice</h2>
                 <p class="first_cross_line">
                     Important information for all customers! *** Important information for all customers! ***
                 </p>
@@ -500,28 +469,19 @@
                 </li>
                 <li class="tokenomics_item">
                     <p class="tokenomics_item_text">0x1258d60b224c0c5cd888d37bbf31aa5fcfb7e870</p>
-                    <button class="tokenomics_item_button" aria-label="Copy to clipboard">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="20" viewBox="0 0 16 20" fill="none">
-                            <path d="M5.12358 16.5898C4.61844 16.5898 4.19253 16.4121 3.84584 16.0567C3.49917 15.7012 3.32584 15.2645
-                            3.32584 14.7465V1.8433C3.32584 1.32536 3.49917 0.888652 3.84584 0.533179C4.19253 0.177726 4.61844 0 5.12358
-                            0H14.2023C14.7074 0 15.1333 0.177726 15.48 0.533179C15.8267 0.888652 16 1.32536 16 1.8433V14.7465C16 15.2645
-                            15.8267 15.7012 15.48 16.0567C15.1333 16.4121 14.7074 16.5898 14.2023 16.5898H5.12358ZM5.12358
-                            15.4839H14.2023C14.382 15.4839 14.5468 15.4071 14.6966 15.2534C14.8464 15.0998 14.9213 14.9309 14.9213
-                            14.7465V1.8433C14.9213 1.65897 14.8464 1.49 14.6966 1.33639C14.5468 1.18279 14.382 1.10599 14.2023
-                            1.10599H5.12358C4.94382 1.10599 4.77903 1.18279 4.6292 1.33639C4.47939 1.49 4.40449 1.65897 4.40449
-                            1.8433V14.7465C4.40449 14.9309 4.47939 15.0998 4.6292 15.2534C4.77903 15.4071 4.94382 15.4839 5.12358
-                            15.4839ZM1.79774 20C1.2926 20 0.866686 19.8223 0.52 19.4668C0.173333 19.1113 0 18.6746 0
-                            18.1567V4.14744H1.07865V18.1567C1.07865 18.341 1.15355 18.51 1.30336 18.6636C1.45317 18.8172 1.61796 18.894
-                            1.79774 18.894H11.9551V20H1.79774Z" fill="#17161E"/>
+                    <button class="tokenomics_item_button" aria-label="Copy wallet address to clipboard">
+                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <use href="/image/tokenomics/copy.svg"/>
                         </svg>
+                        <span class="tokenomics_copy">Copy</span>
                     </button>
                 </li>
             </ul>
         </section>
 
-        <section aria-labelledby="important-notice-heading">
-            <div class="notice-bar" role="alert" aria-live="polite">
-                <h2 id="second-important-notice-heading" class="visually-hidden">Important Notice</h2>
+        <section aria-labelledby="bottom-important-notice-heading">
+            <div class="notice_bar" role="alert" aria-live="polite">
+                <h2 id="second_important_notice_heading" class="visually_hidden">Important Notice</h2>
                 <p class="second_cross_line">
                     Important information for all customers! *** Important information for all customers! ***
                 </p>
@@ -541,7 +501,8 @@
                      alt="Microchip technology illustration"
                      loading="lazy">
             </picture>
-            <div class="start_text_block">
+            <article class="start_text_block" aria-label="Introduction to Hexacore">
+                <h3 class="visually_hidden">Introduction to Hexacore</h3>
                 <p class="start_first_paragraph">
                     It is pleasant, citizens, to observe how the basic scenarios of user behavior are
                     only a method of political participation and are associatively distributed by industry.
@@ -554,14 +515,14 @@
                     Equally, the cohesion of the team of professionals reveals the urgent need for a
                     personnel training system that meets urgent needs.
                 </p>
-            </div>
-            <button class="start_button" aria-label="Get started with NodeAI" type="button">
+            </article>
+            <button class="start_button" aria-label="Get started with Hexacore">
                 Get started
             </button>
         </section>
 
         <section aria-labelledby="cta-heading">
-            <h2 id="cta-heading" class="visually-hidden">Call to action</h2>
+            <h2 id="cta_heading" class="visually_hidden">Call to action</h2>
             <p class="independent_paragraph" role="alert">
                 <span class="yellow_independent_part">Don't stop there</span>
                 - create and grow with the help of decentralized computing and artificial intelligence.
@@ -569,7 +530,7 @@
         </section>
 
         <section id="buy" aria-labelledby="form-heading">
-            <h2 id="form-heading" class="buy_title">Submit your project</h2>
+            <h2 id="form_heading" class="buy_title">Submit your project</h2>
             <form class="buy_form" method="POST">
                 <label for="project_name" class="buy_label">
                     Project Name
@@ -613,11 +574,11 @@
 
         <section id="faq">
             <h2 class="faq_title">FAQ</h2>
-            <details class="faq_list" aria-expanded="false">
+            <details class="faq_list">
                 <summary class="faq_question">
                     How much will I earn by staking $GPU?
                     <svg class="faq_chevron" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
-                        <path d="M6 9l6 6 6-6"/>
+                        <use href="/image/faq_checkmark.svg"/>
                     </svg>
                 </summary>
                 <div class="faq_answer">
@@ -626,11 +587,11 @@
                     </p>
                 </div>
             </details>
-            <details class="faq_list" aria-expanded="false">
+            <details class="faq_list">
                 <summary class="faq_question">
                     How do I buy $GPU?
                     <svg class="faq_chevron" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
-                        <path d="M6 9l6 6 6-6"/>
+                        <use href="/image/faq_checkmark.svg"/>
                     </svg>
                 </summary>
                 <div class="faq_answer">
@@ -639,11 +600,11 @@
                     </p>
                 </div>
             </details>
-            <details class="faq_list" aria-expanded="false">
+            <details class="faq_list">
                 <summary class="faq_question">
                     How secure is a GPU Node?
                     <svg class="faq_chevron" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
-                        <path d="M6 9l6 6 6-6"/>
+                        <use href="/image/faq_checkmark.svg"/>
                     </svg>
                 </summary>
                 <div class="faq_answer">
@@ -652,11 +613,11 @@
                     </p>
                 </div>
             </details>
-            <details class="faq_list" aria-expanded="false">
+            <details class="faq_list">
                 <summary class="faq_question">
                     How can I access my Node?
                     <svg class="faq_chevron" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
-                        <path d="M6 9l6 6 6-6"/>
+                        <use href="/image/faq_checkmark.svg"/>
                     </svg>
                 </summary>
                 <div class="faq_answer">
@@ -665,11 +626,11 @@
                     </p>
                 </div>
             </details>
-            <details class="faq_list" aria-expanded="false">
+            <details class="faq_list">
                 <summary class="faq_question">
                     How much will I earn by staking $GPU?
                     <svg class="faq_chevron" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
-                        <path d="M6 9l6 6 6-6"/>
+                        <use href="/image/faq_checkmark.svg"/>
                     </svg>
                 </summary>
                 <div class="faq_answer">
@@ -685,41 +646,41 @@
             <button class="faq_button">
                     Write to us
                 <svg class="faq_svg">
-                    Mailbox
+                    <use href="/image/mail.svg"/>
                 </svg>
             </button>
         </section>
     </main>
 
     <footer id="footer" class="footer">
-        <a class="footer-logo" href="/" aria-label="Home">
-            <svg class="footer-logo_svg">
-                Logo
+        <a class="footer_logo" href="/" aria-label="Home">
+            <svg class="footer_logo_svg">
+                <use href="/image/logo/logo.svg"/>
             </svg>
         </a>
-        <nav class="footer-navigation" aria-label="Footer navigation">
-            <ul class="footer-navigation_list">
-                <li class="footer-navigation_item">
-                    <a class="footer-navigation_link" href="#advantages">Advantages</a>
+        <nav class="footer_navigation" aria-label="Footer navigation">
+            <ul class="footer_navigation_list">
+                <li class="footer_navigation_item">
+                    <a class="footer_navigation_link" href="#advantages">Advantages</a>
                 </li>
-                <li class="footer-navigation_item">
-                    <a class="footer-navigation_link" href="#roadmap">Roadmap</a>
+                <li class="footer_navigation_item">
+                    <a class="footer_navigation_link" href="#roadmap">Roadmap</a>
                 </li>
-                <li class="footer-navigation_item">
-                    <a class="footer-navigation_link" href="#tokenomics">Tokenomic</a>
+                <li class="footer_navigation_item">
+                    <a class="footer_navigation_link" href="#tokenomics">Tokenomic</a>
                 </li>
-                <li class="footer-navigation_item">
-                    <a class="footer-navigation_link" href="#start">Start</a>
+                <li class="footer_navigation_item">
+                    <a class="footer_navigation_link" href="#start">Start</a>
                 </li>
-                <li class="footer-navigation_item">
-                    <a class="footer-navigation_link" href="#faq">FAQ</a>
+                <li class="footer_navigation_item">
+                    <a class="footer_navigation_link" href="#faq">FAQ</a>
                 </li>
-                <li class="footer-navigation_item">
-                    <a class="footer-navigation_link" href="#buy">Buy</a>
+                <li class="footer_navigation_item">
+                    <a class="footer_navigation_link" href="#buy">Buy</a>
                 </li>
             </ul>
         </nav>
-        <ul class="footer-social">
+        <ul class="footer_social">
             <li class="footer_social_item">
                 <a class="footer_social_link" href="https://www.dextools.io">Dextools</a>
             </li>
@@ -733,7 +694,9 @@
                 <a class="footer_social_link" href="twitter://">Twitter</a>
             </li>
         </ul>
-        <p class="footer_private_policy">(с)NFTNode, 2024</p>
+        <p class="footer_private_policy">(с)NFTNode,
+            <script>document.write(new Date().getFullYear().toString())</script>
+        </p>
     </footer>
 </body>
 </html>
